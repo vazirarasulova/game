@@ -1,0 +1,139 @@
+.run {
+  position: relative;
+  background-image: url("../images/run-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 145px 0 182px;
+}
+
+.run__text {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+.run__title {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 133px;
+}
+
+.run__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 574px;
+  list-style: none;
+ 
+
+  :nth-child(5) {
+    width: 100%;
+  }
+}
+
+.run__item {
+  width: 50%;
+  border: 1px solid #979797;
+  padding-top: 15px;
+  padding-left: 19px;
+}
+
+
+
+
+.run__subtitle {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFB548;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.run__subtext {
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.run__item-line {
+  position: relative;
+  border-bottom:  transparent;
+
+
+.run__line::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 16px;
+  border: 1px solid #979797;
+  border-top: 12px;
+  border-bottom: transparent;
+  border-left: transparent;
+  transform: skew(20deg);
+  position: absolute;
+  left: 67px;
+  bottom: 0px;
+}
+
+:nth-child(2)::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 15px;
+  border: 1px solid #979797;
+  border-bottom: transparent;
+  border-right: transparent;
+  transform: skew(-20deg);
+  position: absolute;
+  left: 72px;
+  bottom: 1px;
+}
+
+:nth-child(3)::after {
+  content: "";
+  display: block;
+  width: 69px;
+  border: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  border-right: transparent;
+  border-left: transparent;
+  border-top: transparent;
+  position: absolute;
+  left: -3px;
+  bottom: 0px;
+}
+
+:nth-child(4)::after {
+  content: "";
+  display: block;
+  width: 432px;
+  border: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  border-right: transparent;
+  border-left: transparent;
+  border-top: transparent;
+  position: absolute;
+  left: 138px;
+  bottom: 0px;
+}
+
+}

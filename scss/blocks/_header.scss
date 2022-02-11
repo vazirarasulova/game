@@ -1,0 +1,238 @@
+.header {
+  position: relative;
+  background-image: url("../images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 52px;
+  padding-top: 22px;
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 237px;
+}
+
+.header__link {
+  width: 55px;
+  height: 55px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 30px;
+
+  &:hover {
+    color: #FFB548;
+  }
+
+  &:active{
+    color: #FFB548;
+  }
+}
+
+.nav__sublist{
+  display: none;
+}
+
+.header__sublink {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-right: 0.873968px solid #FFFFFF;
+  margin-left: 178px;
+  padding-right: 37px;
+  position: relative;
+
+  
+ 
+  &::after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-image: url("../images/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
+
+  &:hover > .nav__sublist{
+    display: block;
+    background: #000;
+  }
+
+
+}
+
+
+.header__subbox {
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/x-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: -15px;
+    right: 80px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/steam-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: -15px;
+    right: 30px;
+  }
+}
+
+.header__info {
+ 
+  text-align: center;
+  margin-bottom: 334px;
+}
+
+.header__title{
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.header__text{
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+.header__buy-link{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #1A1917;
+  padding: 17px 16px 20px;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  text-decoration: none;
+
+
+  &:hover {
+    color: #FFB548;
+    background: #000;
+  }
+
+  &:active{
+    color: #FFB548;
+    background: #000;
+  }
+}
+
+.header__buy-box{
+  margin-left: 11px;
+  border-left: 0.873968px solid #807B71;
+  padding-left: 14px;
+}
+
+.header__scrol-box{
+  display: block;
+  width: 68px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 8px;
+    background-image: url("../images/scroll-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+  }
+}
+
+.header__scrol-link{
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 8px;
+    background-image: url("../images/scroll-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+  }
+
+  &:hover {
+    color: #FFB548;
+    
+  }
+
+  &:active{
+    color: #FFB548;
+  }
+  
+}

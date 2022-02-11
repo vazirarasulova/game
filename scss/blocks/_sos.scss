@@ -1,0 +1,189 @@
+.sos{
+  position: relative;
+  background-image: url("../images/sos-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 272px 0 262px;
+  
+  &::before{
+    content: "";
+    display: block;
+    width: 711px;
+    border-radius: 4px;
+    border: 4px solid #FFFFFF;
+    background-size: cover;
+    position: absolute;
+    top: calc(50% - 50px);
+    right: calc(50% - 120px);
+    z-index: 3;
+  }
+}
+
+.sos__box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 503px;
+    height: 611px;
+    background-image: url("../images/stone.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 6.33344px;
+    position: absolute;
+    top: 14px;
+    bottom: 7px;
+    right: 88px;
+  }
+}
+
+.sos__info-box{
+  width: 411px;
+  margin-top: 68px;
+  margin-bottom: 72px;
+
+}
+
+.sos__text{
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+
+.sos__title{
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+
+.sos__subbox{
+  display: block;
+  width: 365px;
+  margin-left: 189px;
+}
+
+.sos__subtext{
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.sos__text-bold{
+  font-weight: 700;
+}
+
+.sos__text-color{
+  text-decoration: underline 6px #FFB548;
+  
+}
+
+.sos__picture{
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 438px;
+    height: 563px;
+    background-image: url("../images/trees.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 6.33344px;
+    position: absolute;
+    top: 36px;
+    bottom: 34px;
+    right: 61px;
+  }
+
+  
+  &::before{
+    content: "";
+    display: block;
+    width: 74px;
+    height: 34px;
+    background-image: url("../images/switch.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 300px;
+    right: -32px;
+  }
+
+  
+}
+
+.sos__img{
+  width: 438px;
+  height: 512px;
+  opacity: 0.93;
+  border-radius: 6.33344px;
+  margin: 60px 0;
+  margin-right: 38px;
+
+}
+
+.sos__circles{
+  position: relative;
+
+.sos__circle::after{
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1.30637px solid #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  right: 220px;
+  z-index: 4;
+}
+
+:nth-child(2)::after{
+  right: 273px;
+}
+
+:nth-child(3)::after{
+  right: 326px;
+}
+
+:nth-child(4)::after{
+  right: 379px;
+}
+
+:nth-child(5)::after{
+  width: 32px;
+  height: 0;
+  border: 1.95955px solid #FFFFFF;
+  border-radius: 0%;
+  background: #FFFFFF;
+  bottom: 35px ;
+  right: 405px;
+
+}
+
+:nth-child(6)::after{
+  right: 432px;
+  background: #FFFFFF;
+}
+}
